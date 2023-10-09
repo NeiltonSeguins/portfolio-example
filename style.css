@@ -141,7 +141,7 @@ button:hover {
 
 .image-wrapper img {
   max-width: 500px;
-  animation: fade-in 3s infinite;
+  /* animation: flutuar 3s infinite; */
 }
 
 @keyframes flutuar {
