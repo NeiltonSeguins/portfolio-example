@@ -141,7 +141,7 @@ button:hover {
 
 .image-wrapper img {
   max-width: 500px;
-  animation: flutuar 3s infinite;
+  animation: fade-in 3s infinite;
 }
 
 @keyframes flutuar {
@@ -153,6 +153,15 @@ button:hover {
   50% {
     /* Define a posição do meio da animação */
     transform: translateY(-20px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; /* Começa completamente invisível */
+  }
+  100% {
+    opacity: 1; /* Termina completamente visível */
   }
 }
 
