@@ -122,6 +122,21 @@ button {
   border-radius: 4px;
   background: #e5e7eb;
   cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  /* Animação de fundo */
+  background: linear-gradient(90deg, #8b5cf6 0%, #ec4899 43.9%);
+
+  /* Animação de escala */
+  transform: scale(1.1);
+
+  /* Animação de cor do texto */
+  color: #fff;
+
+  /* Animação de rotação
+  transform: rotate(45deg); */
 }
 
 .image-wrapper img {
