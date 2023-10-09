@@ -141,6 +141,19 @@ button:hover {
 
 .image-wrapper img {
   max-width: 500px;
+  animation: flutuar 3s infinite;
+}
+
+@keyframes flutuar {
+  0%,
+  100% {
+    /* Define a posição inicial e final da animação */
+    transform: translateY(0);
+  }
+  50% {
+    /* Define a posição do meio da animação */
+    transform: translateY(-20px);
+  }
 }
 
 @media screen and (max-width: 1075px) {
