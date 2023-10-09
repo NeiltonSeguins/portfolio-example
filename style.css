@@ -1,0 +1,161 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  color: #fff;
+  background: linear-gradient(104deg, #121212 33.84%, #1e3a8a 162.79%) no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.elipse {
+  position: absolute;
+  top: -120px;
+  left: -120px;
+  width: 600px;
+  height: 600px;
+  transform: rotate(-17.376deg);
+  flex-shrink: 0;
+  border-radius: 50%;
+  opacity: 0.5;
+  background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ff29c3 100%);
+  filter: blur(100px);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.glass-container {
+  display: block;
+  max-width: 72vw;
+  margin-top: 10vh;
+  margin-bottom: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 50px 100px;
+  border-radius: 16px;
+  z-index: 10;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+ul.nav-links {
+  margin: 0;
+  display: flex;
+  float: right;
+}
+
+li.nav-link {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.main {
+  margin-top: 8vh;
+  display: inline-block;
+}
+
+.main h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: normal;
+  width: 420px;
+  margin-bottom: 16px;
+}
+
+.main p {
+  font-size: 16px;
+  line-height: 23px;
+  width: 390px;
+  margin-bottom: 16px;
+}
+
+.designer {
+  background: var(
+    --Yellow-Red-Gradient,
+    linear-gradient(90deg, #f59e0b 39.95%, #ef4444 77.15%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.developer {
+  background: var(
+    --Purple-Pink-Gradient-2,
+    linear-gradient(90deg, #8b5cf6 0%, #ec4899 43.9%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  margin-top: 10px;
+  width: 187px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background: #e5e7eb;
+  cursor: pointer;
+}
+
+.image-wrapper img {
+  max-width: 500px;
+}
+
+@media screen and (max-width: 1075px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .logo {
+    font-size: 22px;
+  }
+
+  li.nav-link {
+    font-size: 13px;
+  }
+
+  .main h2 {
+    font-size: 28px;
+  }
+
+  .main p {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 13px;
+  }
+
+  .image-wrapper img {
+    max-width: 400px;
+  }
+}
