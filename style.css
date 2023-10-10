@@ -95,20 +95,14 @@ li.nav-link {
 }
 
 .designer {
-  background: var(
-    --Yellow-Red-Gradient,
-    linear-gradient(90deg, #f59e0b 39.95%, #ef4444 77.15%)
-  );
+  background: linear-gradient(90deg, #f59e0b 39.95%, #ef4444 77.15%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .developer {
-  background: var(
-    --Purple-Pink-Gradient-2,
-    linear-gradient(90deg, #8b5cf6 0%, #ec4899 43.9%)
-  );
+  background: linear-gradient(90deg, #8b5cf6 0%, #ec4899 43.9%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
